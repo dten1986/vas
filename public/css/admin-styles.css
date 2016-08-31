@@ -1,0 +1,222 @@
+/*
+	Layout (layouts.app)
+*/
+
+.b-logo.navbar-brand
+	{
+	display: block;
+	float: left;
+	height: 44px;
+	width: 120px;
+	margin: 3px 0 0 -15px;
+	padding: 0;
+	background: url('../img/logo-dark.svg') center center no-repeat;
+	}
+	
+.b-table
+	{
+	
+	}
+	
+	.b-table__item
+		{
+		
+		}
+		
+		.b-table__item td
+			{
+			
+			}
+			
+			.b-table__item td:last-child
+				{
+				vertical-align: middle;
+				}
+			
+			.b-table__item-name
+				{
+				
+				}
+				
+			.b-table__item td a
+				{
+				margin: 0 auto 10px;
+				}
+				
+				.m-table__item_tabbed
+					{
+					margin: 0 0 0 20px;
+					}
+				
+.b-popup
+	{
+	display: none;
+	position: fixed;
+	top: 70px;
+	left: 0;
+	right: 0;
+	width: 67%;
+	margin: 0 auto;
+	z-index: 1000;
+	opacity: 0;
+	
+	transition: opacity .5s ease;
+	}
+	
+	.b-popup__head
+		{
+		position: relative;
+		
+		}
+		
+		.b-popup__head .close
+			{
+			margin: -3px 0 0 0;
+			font-size: 26px;
+			}
+		
+		
+	.b-popup__body
+		{
+		
+		}
+		
+		.b-popup__body.panel
+			{
+			padding: 10px 20px 0 20px;
+			box-shadow: none;
+			}
+		
+		.b-popup__form
+			{
+			
+			}
+			
+			.b-popup__form-item 
+				{
+				margin: 0 0 10px 0;
+				}
+				
+				.b-popup__form-item-contact,
+				.b-popup__form-item-video
+					{
+					margin: 0 0 10px 0;
+					}
+				
+					.b-popup__form-item-contact-value,
+					.b-popup__form-item-video-value
+						{
+						display: inline-block;
+						width: 40%;
+						margin: 0 10px 0 10px;
+						}
+						
+					.b-popup__form-item-details-stats-value,
+					.b-popup__form-item-details-stats-text
+						{
+						display: inline-block;
+						width: 30%;
+						margin: 0 10px 0 10px;
+						}
+						
+					.b-popup__form-item-contact-new,
+					.b-popup__form-item-video-new
+						{
+						display: inline-block;
+						position: relative;
+						height: 34px;
+						min-width: 123px;
+						padding: 0 10px 0 10px;
+						line-height: 32px;
+						border: 1px solid #DDDDDD;
+						border-radius: 4px;
+						text-align: center;
+						cursor: pointer;
+						}
+						
+						.b-popup__form-item-contact-new span,
+						.b-popup__form-item-video-new span
+							{
+							
+							}
+						
+						.b-popup__form-item-contact-list,
+						.b-popup__form-item-video-list
+							{
+							position: absolute;
+							display: none;
+							top: 33px;
+							left: 0;
+							width: 100%;
+							padding: 0;
+							background-color: #FFFFFF;
+							border: 1px solid #DDDDDD;
+							border-radius: 4px;
+							box-shadow: 0 1px 1px rgba(0,0,0,.05);
+							overflow: hidden;
+							z-index: 10;
+							}
+							
+							.b-popup__form-item-contact-new:hover .b-popup__form-item-contact-list,
+							.b-popup__form-item-video-new:hover .b-popup__form-item-video-list
+								{
+								display: block;
+								}
+								
+							.b-popup__form-item-contact-list li,
+							.b-popup__form-item-video-list li
+								{
+								list-style-type: none;
+								text-align: center;
+								}
+								
+								.b-popup__form-item-contact-list li:hover,
+								.b-popup__form-item-video-list li:hover
+									{
+									color: #FFFFFF;
+									background-color: #000000;
+									}
+				
+			.b-popup__form-reset
+				{
+				float: right;
+				}
+				
+			
+/* Bootstrap */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+
+.icon-pencil
+	{
+	background-position: 0 -72px
+	}
+	
+.icon-remove
+	{
+	background-position: -312px 0;
+	}
+	
+.icon-plus
+	{
+	background-position: -408px -96px;
+	}
+	
+.icon-chevron-down
+	{
+	background-position: -313px -119px;
+	}
+
+
+

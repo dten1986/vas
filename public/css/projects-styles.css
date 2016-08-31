@@ -1,0 +1,132 @@
+/* -- Soc-Prime -- */
+.m-slide_projects_1 {
+	background: #D94141;
+	}
+
+	.m-slide_projects_1 .tringle-right-bg {
+		background-color: rgba(0,0,0,0.6);
+		}
+
+		.m-slide_projects_1 .tringle-right-1 {
+			border-right-color: #F05451;
+			border-bottom-color: #F05451;
+			}
+
+		.m-slide_projects_1 .tringle-right-3 {
+			background: #D94141;
+			}
+
+		.m-slide_projects_1 .tringle-right-4 {
+			border-top-color: #D94141;
+			border-left-color: #D94141;
+			}
+
+		.m-slide_projects_1 .tringle-right-1:after {
+			background: #F05451;
+			}
+
+
+		.m-slide_projects_1 .tringle-right-4:after {
+			background: #D94141;
+			}
+
+	.m-slide_projects_1 .b-slide__projects-text h1 {
+		color : #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+		}
+
+	.m-slide_projects_1 .b-slide__projects-text p {
+		color : #FFFFFF;
+		}
+
+	.m-slide_projects_1 .b-slide__projects-text-details-link {
+		color : #FFFFFF;
+		background-image: url('../img/apply-button-bg_light.svg');
+		}
+
+	.m-slide_projects_1 .b-slide__projects-text-right-column {
+		color : #FFFFFF;
+		}
+
+		.m-slide_projects_1 .b-slide__projects-text-details-close-inner {
+			border-top-color: #D30000;
+			border-right-color: #D30000;
+			}
+
+		.m-slide_projects_1 .b-slide__projects-text-details-table h1 {
+			color: #FFFFFF;
+			}
+
+		.m-slide_projects_1 .b-slide__projects-text-details-description p {
+			color: #FFFFFF;
+			}
+
+		.m-slide_projects_1 .b-slide__projects-text-details-email a {
+			color: #FFFFFF;
+			}
+
+/* -- Pectube -- */
+.m-slide_projects_2 {
+	background: #FFF3D9;
+	}
+
+	.m-slide_projects_2 .tringle-right-bg {
+		background-color: rgba(0,0,0,0.1);
+		}
+
+		.m-slide_projects_2 .tringle-right-1 {
+			border-right-color: #FFD069;
+			border-bottom-color: #FFD069;
+			}
+
+		.m-slide_projects_2 .tringle-right-3 {
+			background: #FFF3D9;
+			}
+
+		.m-slide_projects_2 .tringle-right-4 {
+			border-top-color: #FFF3D9;
+			border-left-color: #FFF3D9;
+			}
+
+		.m-slide_projects_2 .tringle-right-1:after {
+			background: #FFD069;
+			}
+
+		.m-slide_projects_2 .tringle-right-4:after {
+			background: #FFF3D9;
+			}
+
+	.m-slide_projects_2 .b-slide__projects-text h1 {
+		color : #383838;
+		border-bottom: 1px solid #454545;
+		}
+
+	.m-slide_projects_2 .b-slide__projects-text p {
+		color : #383838;
+		}
+
+	.m-slide_projects_2 .b-slide__projects-text-details-link {
+		color : #383838;
+		background-image: url('../img/apply-button-bg_dark.svg');
+		}
+
+	.m-slide_projects_2 .b-slide__projects-text-right-column {
+		color : #383838;
+		}
+
+		.m-slide_projects_2 .b-slide__projects-text-details-close-inner {
+			border-top-color: #ff0707;
+			border-right-color: #ff0707;
+			}
+
+		.m-slide_projects_2 .b-slide__projects-text-details-table h1 {
+			color : #383838;
+			}
+
+		.m-slide_projects_2 .b-slide__projects-text-details-description p {
+			color : #383838;
+			}
+
+		.m-slide_projects_2 .b-slide__projects-text-details-email a {
+			color : #383838;
+			}
